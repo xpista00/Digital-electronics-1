@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/lab661/Documents/kaletpista/Digital-electronics-1/Labs/02-ise/cvIISE/top_tb01_isim_beh.exe" -prj "/home/lab661/Documents/kaletpista/Digital-electronics-1/Labs/02-ise/cvIISE/top_tb01_beh.prj" "work.top_tb01" 
