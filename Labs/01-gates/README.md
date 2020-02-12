@@ -48,7 +48,7 @@
     | 1 | 1 | 0 | 0 | 0 | 1 |
 
 
-https://latex.codecogs.com/gif.latex?A&space;\cdot&space;\bar{B}
+latex?A&space;\cdot&space;\bar{B}
 
 https://latex.codecogs.com/gif.latex?\bar{A}&space;\cdot&space;\bar{B}&space;&plus;&space;A&space;\cdot&space;B
 
