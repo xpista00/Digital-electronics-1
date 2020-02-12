@@ -19,8 +19,8 @@
 
 | ![equation](https://latex.codecogs.com/gif.latex?y_%7BA%3CB%7D%5E%7BPoS%2Cmin%7D%20)  |   | **A** |
 | :-:  | :-:  | :-: |
-|   | 0 | 1 |
-|**B** | 0 | 0 |
+|   | 0 | 0 |
+|**B** | 1 | 0 |
 
 | ![equation](https://latex.codecogs.com/gif.latex?y_%7BA%3CB%7D%5E%7BPoS%2Cmin%7D%20)  |   | **A** |
 | :-:  | :-:  | :-: |
