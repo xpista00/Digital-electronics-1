@@ -17,15 +17,15 @@
 ![equation](https://latex.codecogs.com/gif.latex?y_%7BA%3CB%7D%5E%7BPoS%7D%3D)
 ![imag3](https://latex.codecogs.com/gif.latex?({A}&space;&plus;&space;{B})&space;\cdot&space;(\bar{A}&plus;&space;B)&space;\cdot&space;(\bar{A}&plus;\bar{B}))
 
-| ![equation](https://latex.codecogs.com/gif.latex?y_%7BA%3CB%7D%5E%7BPoS%2Cmin%7D%20)  |   | **A** |
+| ![equation](https://latex.codecogs.com/gif.latex?y_%7BA%3CB%7D%5E%7BPoS%2Cmin%7D%20)  |   | **B** |
 | :-:  | :-:  | :-: |
 |   | 0 | 0 |
-|**B** | 1 | 0 |
+|**A** | 1 | 0 |
 
-| ![equation](https://latex.codecogs.com/gif.latex?y_%7BA%3EB%7D%5E%7BSoP%7D%3D)  |   | **A** |
+| ![equation](https://latex.codecogs.com/gif.latex?y_%7BA%3EB%7D%5E%7BSoP%7D%3D)  |   | **B** |
 | :-:  | :-:  | :-: |
 |   | 0 | 1 |
-|**B** | 0 | 0 |
+|**A** | 0 | 0 |
 
 
 ![equation](https://latex.codecogs.com/gif.latex?y_%7BA%3CB%7D%5E%7BPoS%2Cmin%7D%20%3D)
