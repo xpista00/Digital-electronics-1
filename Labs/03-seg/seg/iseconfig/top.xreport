@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-02-13T08:18:20</DateModified>
+  <DateModified>2020-02-19T14:34:05</DateModified>
   <ModuleName>top</ModuleName>
-  <SummaryTimeStamp>2020-02-12T14:21:07</SummaryTimeStamp>
-  <SavedFilePath>/home/lab661/Documents/kaletpista/Digital-electronics-1/Labs/02-ise/cvIISE/iseconfig/top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/lab661/Documents/kaletpista/Digital-electronics-1/Labs/02-ise/cvIISE/</ImplementationReportsDirectory>
-  <DateInitialized>2020-02-12T13:37:21</DateInitialized>
+  <SummaryTimeStamp>2020-02-19T14:33:31</SummaryTimeStamp>
+  <SavedFilePath>/home/lab661/Documents/kaletpista/Digital-electronics-1/Labs/03-seg/seg/iseconfig/top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/lab661/Documents/kaletpista/Digital-electronics-1/Labs/03-seg/seg</ImplementationReportsDirectory>
+  <DateInitialized>2020-02-19T14:32:01</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>
