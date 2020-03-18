@@ -1,5 +1,6 @@
 LIBRARY ieee;
-USE ieee.std_logic_1164.ALL;
+use ieee.std_logic_1164.ALL;
+use ieee.numeric_std.all;
  
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -8,7 +9,7 @@ USE ieee.std_logic_1164.ALL;
 ENTITY testbench IS
 END testbench;
  
-ARCHITECTURE behavior OF testbench IS 
+ARCHITECTURE tb OF testbench IS 
  
     -- Component Declaration for the Unit Under Test (UUT)
  
@@ -67,30 +68,10 @@ BEGIN
 --   end process;
  
 
---	stim_proc: process
---   	begin
---		data0_i <= "0000";
-  --      data1_i	<= "0011";
---        data2_i <= "0001";
---        data3_i	<= "0100";
---        dp_i <= "0000";
---        srst_n_i <= '1';
---        clk_i <= '0';wait for 50 us;
---        clk_i <= '1';wait for 50 us;
---        clk_i <= '0';wait for 50 us;
---        clk_i <= '1';wait for 50 us;
---        clk_i <= '0';wait for 50 us;
---        clk_i <= '1';wait for 50 us;
---        clk_i <= '0';wait for 50 us;
---        clk_i <= '1';wait for 50 us;
---        clk_i <= '0';wait for 50 us;
---        wait;
---        
---   	end process;
 
 	Clk_gen: process	-- NEW
   	begin
-    	while Now < 500 NS loop		-- NEW: DEFINE SIMULATION TIME
+    	while Now < 5000NS loop		-- NEW: DEFINE SIMULATION TIME
       		clk_i <= '0';
       		wait for 5 NS;
       		clk_i <= '1';
@@ -113,4 +94,4 @@ BEGIN
         wait;
     end process;
 
-end;
+end tb;

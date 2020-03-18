@@ -31,7 +31,7 @@ end entity clock_enable;
 -- Architecture declaration for clock enable
 ------------------------------------------------------------------------
 architecture Behavioral of clock_enable is
-    signal s_cnt : unsigned(16-1 downto 0) := (others => '0');
+    signal s_count : unsigned(16-1 downto 0) := x"0000";
 begin
 
     --------------------------------------------------------------------
@@ -44,14 +44,14 @@ begin
     begin
         if rising_edge(clk_i) then  -- Rising clock edge
             if srst_n_i = '0' then  -- Synchronous reset (active low)
-                s_cnt <= (others => '0');   -- Clear all bits
+                s_count <= (others => '0');   -- Clear all bits
                 clock_enable_o <= '0';
             else
-                if s_cnt >= (g_NPERIOD-1) then
-                    s_cnt <= (others => '0');
+                if s_count >= (g_NPERIOD-1) then
+                    s_count <= (others => '0');
                     clock_enable_o <= '1';
                 else
-                    s_cnt <= s_cnt + x"0001";
+                    s_count <= s_count + x"0001";
                     clock_enable_o <= '0';
                 end if;
             end if;
