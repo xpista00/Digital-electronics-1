@@ -37,9 +37,3 @@
 ![imag4](https://latex.codecogs.com/gif.latex?\bar{B}&plus;&space;A)
 
 
-| Označení pinu | Funkce |
-| :-: | :-: |
-| clk_i | hodinový signál |
-| BTN0 | spínač pro synchronní reset zařízení |
-| SW0_CPLD až SW7_CPLD | volba datového slova b0 - b7 |
-
