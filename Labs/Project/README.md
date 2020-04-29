@@ -29,11 +29,11 @@ Krom nastavení bitů v rámci můžeme měnit bitrate rámce. Běžný UART mů
 ![schema2](schema2.png)
 *fig. 2: blokové schéma synchronního systému UART*
 
-#![simulace2](simulace2.png)
+![simulace2](simulace2.png)
 *fig. 3: výsledek simulace souboru testbench.vhd v prostředí EDA playground*
 
 
-Závěr:
+**Závěr:**
 Systém je na základě simulace funkční a připravený k implementaci. 
 Předpokládaný hodinový kmitočet je 100 kHz. Požadované bitraty 1200 a 4800 není možno metodou dělení kmitočtu nastavit úplně přesně. Liší se maximálně o 1 %, což v praxi, jelikož se přijímač synchronizuje  start-bitem s každým slovem.
 Pro výstup jsme vybrali led LD0 na rozšiřující desce CPLD. Reálně se však bude zdát, že led neustále svítí, protože lidské oko nerozezná jednotlivé změny už okolo 50 Hz. 
