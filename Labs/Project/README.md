@@ -1,7 +1,7 @@
 # **UART (Universal asynchronous receiver/transmitter)**
 
 
-**Zadání:**
+**Zadání:**\
 Vysílač s nastavitelnými parametry UART rámce, datového slova a volby jedné ze dvou přednastavených standardních symbolových rychlostí za chodu aplikace.
 
 Úkolem je vytvořit vysílač použitelný pro sériový asynchronní přenos dat. Transmitter vysílá datový rámec, jehož parametry jsou nastavitelné přepínači.
