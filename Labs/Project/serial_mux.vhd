@@ -92,7 +92,7 @@ begin
                 when x"B" => 	
                 	out_tx <= '1';			--stop bit 2, when is it enabled
        			when others =>
-                	out_tx <= '0';
+                	out_tx <= '1';
                 end case;
 			end if;
         end if;        
