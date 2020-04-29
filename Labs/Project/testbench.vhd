@@ -76,20 +76,18 @@ BEGIN
     begin
 --        srst_n_i <= '0';
 --        wait until rising_edge(clk_i);
-        data_p_i <= "11111111";
-        s_parity_i <= '1';
-        set_speed_i <= '1';
-        set_stopb_i	<= '1';	
+        data_p_i <= "10101010";
+        s_parity_i <= '1';			-- parity odd
+        set_speed_i <= '1';			-- higher bitrate 4800
+        set_stopb_i	<= '1';			-- stopbits 2
         srst_n_i <= '1';
-        wait for 4 MS;
-        wait for 2 MS;
-        data_p_i <= "10001111";
-        wait for 2 MS;
-        s_parity_i <= '0';
-        wait for 2 MS;
-        set_stopb_i	<= '0';
-        wait for 2 MS;
-        set_speed_i <= '0';
+        wait for 6 MS;
+        srst_n_i <= '0';
+        wait for 1 MS;
+        srst_n_i <= '1';
+        s_parity_i <= '0';			-- parity even	
+        set_stopb_i	<= '0';			-- stopbit 1
+        set_speed_i <= '0';			-- bitrate 1200
         wait;
         
         
