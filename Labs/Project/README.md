@@ -38,6 +38,6 @@ Předpokládaný hodinový kmitočet je 100 kHz. Požadované bitraty 1200 a 480
 Pro výstup jsme vybrali led LD0 na rozšiřující desce CPLD. Reálně se však bude zdát, že led neustále svítí, protože lidské oko nerozezná jednotlivé změny už okolo 50 Hz. 
 
 
-**Zdroje:**/
+**Zdroje:**\
  [1] Universal asynchronous receiver-transmitter [online] aktualizováno 22.3.2020. Dostupné z:
  https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter
