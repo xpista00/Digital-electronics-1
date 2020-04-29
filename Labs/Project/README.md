@@ -1,7 +1,7 @@
-UART (Universal asynchronous receiver/transmitter)
+**UART (Universal asynchronous receiver/transmitter)**
 
 
-Zadání: 
+**Zadání:**
 Vysílač s nastavitelnými parametry UART rámce, datového slova a volby jedné ze dvou přednastavených standardních symbolových rychlostí za chodu aplikace.
 
 Úkolem je vytvořit vysílač použitelný pro sériový asynchronní přenos dat. Transmitter vysílá datový rámec, jehož parametry jsou nastavitelné přepínači.
@@ -12,7 +12,7 @@ Rámec zakončuje stop-bit. Stop-bit může být 1, nebo 2, v závislosti na nas
 Krom nastavení bitů v rámci můžeme měnit bitrate rámce. Běžný UART může používat celou řadu bitových rychlostí. V našem případě volíme mezi 1200 bps (L) a 4800 bps (H).
 
 #obrázek rámce
-fig. 1: znázornění podoby rámce UART
+*fig. 1: znázornění podoby rámce UART*
 
 | Označení pinu | Funkce |
 | :-: | :-: |
@@ -24,13 +24,13 @@ fig. 1: znázornění podoby rámce UART
 | SW10_CPLD | nastavení bitové rychlosti |
 | LD0_CPLD  | výstup transmitteru |
 
-tabulka 1: přiřazení ovládacích, vstupních a výstupních pinů desek coolrunner a CPLD
+*tabulka 1: přiřazení ovládacích, vstupních a výstupních pinů desek coolrunner a CPLD*
 
-#obrázek schéma
-fig. 2: blokové schéma synchronního systému UART
+![schema2](schema2.png)
+*fig. 2: blokové schéma synchronního systému UART*
 
 #simulace
-fig. 3: výsledek simulace souboru testbench.vhd v prostředí EDA playground
+*fig. 3: výsledek simulace souboru testbench.vhd v prostředí EDA playground*
 
 
 Závěr:
