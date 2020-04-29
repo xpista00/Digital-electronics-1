@@ -23,6 +23,7 @@ fig. 1: znázornění podoby rámce UART
 | SW9_CPLD | nastavení počtu stop-bitů |
 | SW10_CPLD | nastavení bitové rychlosti |
 | LD0_CPLD  | výstup transmitteru |
+
 tabulka 1: přiřazení ovládacích, vstupních a výstupních pinů desek coolrunner a CPLD
 
 #obrázek schéma
