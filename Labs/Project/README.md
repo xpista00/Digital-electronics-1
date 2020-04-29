@@ -1,4 +1,4 @@
-#**UART (Universal asynchronous receiver/transmitter)**
+# **UART (Universal asynchronous receiver/transmitter)**
 
 
 **Zadání:**
