@@ -11,7 +11,7 @@ Bit 9 rámce je paritní bit, který mění svou hodnotu (H / L) tak aby byla do
 Rámec zakončuje stop-bit. Stop-bit může být 1, nebo 2, v závislosti na nastavení H (2 stop-bity), nebo L (1 stop-bit).
 Krom nastavení bitů v rámci můžeme měnit bitrate rámce. Běžný UART může používat celou řadu bitových rychlostí. V našem případě volíme mezi 1200 bps (L) a 4800 bps (H).
 
-#obrázek rámce
+![ramec2](ramec2.png)
 *fig. 1: znázornění podoby rámce UART*
 
 | Označení pinu | Funkce |
@@ -29,7 +29,7 @@ Krom nastavení bitů v rámci můžeme měnit bitrate rámce. Běžný UART mů
 ![schema2](schema2.png)
 *fig. 2: blokové schéma synchronního systému UART*
 
-#simulace
+#![simulace2](simulace2.png)
 *fig. 3: výsledek simulace souboru testbench.vhd v prostředí EDA playground*
 
 
